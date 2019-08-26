@@ -3,11 +3,11 @@ var Wizard = require('../exercises/wizard');
 
 describe('Wizard', function() {
 
-  it.skip('should be a function', function() {
+  it('should be a function', function() {
     assert.isFunction(Wizard);
   });
 
-  it.skip('should have a name', function() {
+  it('should have a name', function() {
     var wizard = new Wizard({name: 'Jhun'});
     assert.equal(wizard.name, 'Jhun');
   });
