@@ -48,12 +48,10 @@ describe('Sphinx', function() {
       riddle: 'What\'s been around for millions of years but is never more than a month old?',
       answer: 'The moon'
     };
-
     sphinx.collectRiddle(riddle1);
     sphinx.collectRiddle(riddle2);
     sphinx.collectRiddle(riddle3);
     sphinx.collectRiddle(riddle4);
-
     assert.deepEqual(sphinx.riddles, [riddle2, riddle3, riddle4]);
   });
 
